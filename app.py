@@ -155,5 +155,4 @@ def send_telegram_message(message):
     response = requests.post(url, data=payload)
     return response.json()
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
